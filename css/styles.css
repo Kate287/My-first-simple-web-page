@@ -1,0 +1,154 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+p {
+    line-height: 1.37em;
+    margin: 30px 0;
+    font-weight: 500;
+}
+
+.cow-image {
+    width: 465px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 465px;
+}
+
+.logo {
+    max-width: 182px;
+    display: block;
+    margin-bottom: 82px;
+}
+
+.button {
+    background: #FF6861;
+    border-radius: 100px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 22px 0;
+    line-height: 1.37em;
+    display: block;
+    width: 227px;
+    text-align: center;
+    transition: all 0.7s ease;
+} 
+
+.button:hover {
+    background: #f18913;
+    font-size: 20px;
+} 
+
+
+section {
+    padding-top: 120px;
+} 
+
+.description {
+    text-align: center;
+}
+
+.features-container {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    margin: 0 auto
+}
+
+.feature {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    
+}
+
+.feature-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.feature-text {
+    margin: 0;
+}
+
+.feature:hover .feature-picture {
+    width: 97.9px;
+}
+
+.image-ladybag {
+    width: 287px;
+}
+
+.action .hero-text {
+    width: 475px;
+}
+
+.action h2 {
+    margin-bottom: 24px;
+}
+.action .intro {
+    margin: 24px 0;
+    width: 371px;
+}
+
+.action-scope {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 76px 101px 75px 122px;
+    gap: 101px;
+    justify-content: center;
+}
+
+.credits {
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer {
+    padding: 120px 0;
+}
+
